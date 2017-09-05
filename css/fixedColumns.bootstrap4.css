@@ -43,6 +43,10 @@ div.DTFC_RightFootWrapper table {
   background-color: white;
 }
 
+div.DTFC_Blocker {
+  background-color: white;
+}
+
 table.dataTable.table-striped.DTFC_Cloned tbody tr:nth-of-type(odd) {
   background-color: #F3F3F3;
 }
