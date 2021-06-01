@@ -3,6 +3,7 @@
     "description": "FixedColumns for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/fixedColumns.bootstrap4.js",
     "style": "css/fixedColumns.bootstrap4.css",
+    "types": "./types/fixedColumns.bootstrap4.d.ts",
     "version": "3.3.2",
     "files": [
         "css/**/*.css",
