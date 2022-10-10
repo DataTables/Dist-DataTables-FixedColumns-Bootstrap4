@@ -2,12 +2,14 @@
     "name": "datatables.net-fixedcolumns-bs4",
     "description": "FixedColumns for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/fixedColumns.bootstrap4.js",
+    "module": "js/fixedColumns.bootstrap4.mjs",
     "style": "css/fixedColumns.bootstrap4.css",
     "types": "./types/fixedColumns.bootstrap4.d.ts",
     "version": "4.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
