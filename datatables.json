@@ -10,7 +10,8 @@
         "css/fixedColumns.bootstrap4.min.css"
     ],
     "types": [
-        "types/fixedColumns.bootstrap4.d.ts"
+        "types/fixedColumns.bootstrap4.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/FixedColumns",
     "last-tag": "4.1.0"
