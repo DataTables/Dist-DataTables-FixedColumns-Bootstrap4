@@ -4,7 +4,7 @@
     "main": "js/fixedColumns.bootstrap4.js",
     "module": "js/fixedColumns.bootstrap4.mjs",
     "style": "css/fixedColumns.bootstrap4.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/fixedColumns.bootstrap4.d.ts",
     "version": "4.2.2",
     "files": [
         "css/**/*.css",
@@ -15,7 +15,7 @@
     "keywords": [
         "FixedColumns",
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedcolumns": ">=4.1.0",
-        "datatables.net-bs4": ">=1.12.1",
+        "datatables.net-fixedcolumns": ">=4.2.2",
+        "datatables.net-bs4": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
