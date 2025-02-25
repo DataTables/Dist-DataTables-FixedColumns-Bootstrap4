@@ -27,7 +27,7 @@ import DataTable from 'datatables.net-bs4';
 import 'datatables.net-fixedcolumns-bs4'
 
 new DataTable('#myTable', {
-    // initalisation options
+    // initialisation options
 });
 ```
 
