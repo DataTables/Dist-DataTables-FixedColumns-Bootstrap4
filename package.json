@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedcolumns-bs4",
     "description": "FixedColumns for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/fixedColumns.bootstrap4.js",
-    "module": "js/fixedColumns.bootstrap4.mjs",
-    "style": "css/fixedColumns.bootstrap4.css",
+    "main": "./js/fixedColumns.bootstrap4.js",
+    "module": "./js/fixedColumns.bootstrap4.mjs",
+    "style": "./css/fixedColumns.bootstrap4.css",
     "types": "./types/fixedColumns.bootstrap4.d.ts",
     "version": "6.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedColumns",
@@ -35,5 +34,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedColumns.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedColumns.bootstrap4.d.ts",
+            "import": "./js/fixedColumns.bootstrap4.mjs",
+            "default": "./js/fixedColumns.bootstrap4.mjs",
+            "require": "./js/fixedColumns.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedColumns.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
