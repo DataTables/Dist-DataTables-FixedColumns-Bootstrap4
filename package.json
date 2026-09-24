@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedColumns.bootstrap4.d.ts",
+            "style": "./css/fixedColumns.bootstrap4.css",
             "import": "./js/fixedColumns.bootstrap4.mjs",
-            "default": "./js/fixedColumns.bootstrap4.mjs",
-            "require": "./js/fixedColumns.bootstrap4.js"
+            "require": "./js/fixedColumns.bootstrap4.js",
+            "default": "./js/fixedColumns.bootstrap4.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
